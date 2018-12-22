@@ -1,0 +1,10 @@
+
+<view class="introduce">
+<image class="pictureType"
+src ="image/timg.jpg"></image>
+<text>"开始体验之旅吧！"</text>
+<view wx:if="{{judge}}" class='intr' >{{introduce}} </view>
+<button bindtap="add" class='bt1' > 使用说明 </button>
+
+</view>
+<button class ="bt1" bindtap = "validate">查看实时数据</button>

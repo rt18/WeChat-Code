@@ -1,0 +1,27 @@
+.info{
+  text-align:left;
+  color: pink;
+  background-color: blue
+ 
+}
+.introduce{
+  background-color: rgba(252, 252, 252, 0.788);
+  height: 80vh;
+
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.pictureType{
+width:200rpx;
+height: 200rpx;
+border-radius: 50%
+}
+.bt1{
+  height: 9vh;
+  width:55%
+}
+.intr{
+  width: 500rpx;
+}

@@ -1,0 +1,6 @@
+<view class ="set">
+<button bindtap='speak' class='bt1'>语音识别开锁/停止</button>
+<button bindtap='chooseimage'>人脸认证开锁</button>
+<button bindtap='direct' >直接开锁</button>
+<view> {{nodeToWX}} </view>
+</view>

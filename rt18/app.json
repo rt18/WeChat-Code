@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/key/key",
+    "pages/spy/spy"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "text": "体验",
+        "pagePath": "pages/index/index",
+        "iconPath": "image/pg1Close1.png",
+        "selectedIconPath": "image/pg1Open.png"
+      },
+      {
+        "text": "Open!",
+        "pagePath": "pages/key/key",
+        "iconPath": "image/pg2Close.png",
+        "selectedIconPath": "image/pg2Open1.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarTitleText": "智能门锁",
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#fff"
+  }
+}
